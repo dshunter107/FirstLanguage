@@ -1,0 +1,16 @@
+STRING a;
+STRING b, c, j, k;
+LIST firstList;
+
+ASSIGN (a, b, c AS "5");
+ASSIGN (j AS "6");
+
+ASSIGN (firstList AS {a, b, c });
+
+ASSIGN (k AS ADD(j, firstList));
+
+Print( k , output);
+
+
+
+
